@@ -13,7 +13,18 @@ def fizzbuzz(num)
   end
 end
 
-fizz_3 = fizzbuzz(3)
-fizz_5 = fizzbuzz(5)
-fizz_15 = fizzbuzz(15)
-fizz_4 = fizzbuzz(4)
+def fizz_3
+  return fizzbuzz(3)
+end
+
+def fizz_5
+  return fizzbuzz(5)
+end
+
+def fizz_15
+  return fizzbuzz(15)
+end
+
+def fizz_4
+  return fizzbuzz(4)
+end
